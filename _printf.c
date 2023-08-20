@@ -15,7 +15,6 @@ int width = 0;
 int precision = 0;
 int size = 0;
 int buffend = 0;
-    
 va_list list;
 char buffer[BUFF_SIZE];
 if (format == NULL)
