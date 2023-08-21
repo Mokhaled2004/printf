@@ -14,7 +14,7 @@ specifier_t specifiers[] =
 {"d", print_int},
 {"i", print_int},
 {"s", print_string},
-{" % ", print_percent},
+{" % ",print_percent},
 {"b", print_binary},
 {"o", print_octal},
 {"u", print_unsigned},
@@ -27,13 +27,13 @@ specifier_t specifiers[] =
 {NULL, NULL}
 };
 int i =0 ;
-while (specifier[i].specifier)
+while (specifiers[i].specifier)
 {
-if(*s == specifiers[i],specifier[0])
+if (*s == specifiers[i].specifier[0])
 {
-return(specifiers[i].f)
+return (specifiers[i].f);
 }
-i++
+i++;
 }
 return (NULL);
 }
@@ -49,9 +49,9 @@ return (NULL);
 int get_print_func(char *s ,va_list ap , params_t *params)
 {
 int (*f)(va_list, params_t *) = get_specifier(s);
-if(f)
-return  (f(ap,params);
-return 0;
+if (f)
+return (f(ap, params));
+return (0);
 }
 
 /**
