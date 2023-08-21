@@ -6,7 +6,7 @@
 *
 *Return: the number of bytes printed
 */
-int (*get_specifier(char *s ))(va_list ap,params_t *params)
+int (*get_specifier(char *s))(va_list ap, params_t *params)
 {
 specifier_t specifiers[] =
 {
@@ -14,7 +14,7 @@ specifier_t specifiers[] =
 {"d", print_int},
 {"i", print_int},
 {"s", print_string},
-{" % ",print_percent},
+{"%", print_percent},
 {"b", print_binary},
 {"o", print_octal},
 {"u", print_unsigned},
