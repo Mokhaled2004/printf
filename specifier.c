@@ -23,7 +23,7 @@ specifier_t specifiers[] =
 {"p", print_address},
 {"S", print_S},
 {"r", print_rev},
-{"R", print_rot13},
+{"R", print_tot13},
 {NULL, NULL}
 };
 int i =0 ;
