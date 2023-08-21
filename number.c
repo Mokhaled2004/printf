@@ -75,7 +75,3 @@ str = convert(n, 16, CONVERT_UNSIGNED | CONVERT_LOWERCASE, params);
 *--str = '0';
 return (print_number(str, params));
 }
-
-
-
-
