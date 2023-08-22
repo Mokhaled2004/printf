@@ -13,7 +13,7 @@ specifier_t specifiers[] = {
 {"d", print_int},
 {"i", print_int},
 {"s", print_string},
-{"%", print_rev},
+{"%", print_percent},
 {"b", print_binary},
 {"o", print_octal},
 {"u", print_unsigned},
@@ -22,7 +22,7 @@ specifier_t specifiers[] = {
 {"p", print_address},
 {"S", print_S},
 {"r", print_rev},
-{"R", print_tot13},
+{"R", print_rot13},
 {NULL, NULL}};
 int i = 0;
 while (specifiers[i].specifier)
