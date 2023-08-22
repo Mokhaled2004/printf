@@ -60,8 +60,7 @@ return (print_number(convert(1, 10, CONVERT_UNSIGNED, params), params));
 /**
 * print_address - prints address
 * @ap: argument pointer
-* @params: the parameters struct
-*
+* @params: lol
 * Return: bytes printed
 */
 int print_address(va_list ap, params_t *params)

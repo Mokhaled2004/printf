@@ -2,9 +2,9 @@
 
 /**
 * _puts - prints a string with nweline
-* @str: gg
+* @str:gg
 *
-* Return: void
+* Return:void
 */
 int _puts(char *str)
 {
@@ -17,7 +17,7 @@ return (str - a);
 
 /**
 * _putchar - writes
-* @c: gg
+* @c:gg
 *
 * Return: gg
 * On error, -1 returned

@@ -2,9 +2,9 @@
 
 /**
  * _printf - prints anything
- * @format: the format string
- *
- * Return: number of bytes printed
+ * @format: lol
+ * @...: lol
+ * Return:  numbers
 */
 
 int _printf(const char *format, ...)

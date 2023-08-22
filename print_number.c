@@ -96,7 +96,6 @@ n += _putchar(' ');
 n += _puts(str);
 return (n);
 }
-
 /**
  * print_number_left_shift - gg
  * @str: the
@@ -104,7 +103,6 @@ return (n);
  *
  * Return: gg
 */
-
 int print_number_left_shift(char *str, params_t *params)
 {
 unsigned int n = 0, neg, neg2, i = _strlen(str);
