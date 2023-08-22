@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * print_char - checks if character is digit
- * @ap: glol
- * @params: gg
- * Return: 1
+ * print_char - prints character
+ * @ap: argument pointer
+ * @params: the parameters struct
+ *
+ * Return: number chars printed
 */
 int print_char(va_list ap, params_t *params)
 {
@@ -20,11 +21,11 @@ sum += _putchar(ch);
 return (sum);
 }
 /**
- * print_int - gg
- * @ap: gg
- * @params: lol
+ * print_int - prints integer
+ * @ap: argument pointer
+ * @params: the parameters struct
  *
- * Return: gg
+ * Return: number chars printed
 */
 int print_int(va_list ap, params_t *params)
 {
@@ -39,10 +40,10 @@ return (print_number(convert(1, 10, 0, params), params));
 }
 /**
  * print_string - prints string
- * @ap: argument
- * @params: loll
+ * @ap: argument pointer
+ * @params: the parameters struct
  *
- * Return: gg
+ * Return: number chars printed
 */
 int print_string(va_list ap, params_t *params)
 {
@@ -78,10 +79,10 @@ return (sum);
 }
 /**
  * print_percent - prints string
- * @ap: lol
- * @params: i am batman
+ * @ap: argument pointer
+ * @params: the parameters struct
  *
- * Return: gg
+ * Return: number chars printed
 */
 int print_percent(va_list ap, params_t *params)
 {
@@ -90,11 +91,11 @@ int print_percent(va_list ap, params_t *params)
 return (_putchar('%'));
 }
 /**
- * print_S - lol
- * @ap: gg
- * @params: gol
+ * print_S - custom format specifier
+ * @ap: argument pointer
+ * @params: the paramters struct
  *
- * Return: num
+ * Return: number chars printed
 */
 int print_S(va_list ap, params_t *params)
 {
