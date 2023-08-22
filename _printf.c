@@ -3,7 +3,7 @@
 /**
  * _printf - prints anything
  * @format: lol
- *
+ * @...: lol
  * Return:  numbers
 */
 
