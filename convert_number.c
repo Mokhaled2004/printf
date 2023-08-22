@@ -2,8 +2,8 @@
 
 /**
 * print_hex - prints unsigned hex numbers in lowercase
-* @ap: gg
-* @params: gg
+* @ap: the argument pointer
+* @params: the parameters struct
 *
 * Retyrn: bytes printed
 */
@@ -33,9 +33,9 @@ return (c += print_number(str, params));
 /**
 * print_HEX - prints unsigned hex numbers in uppercase
 * @ap: the argument pointer
-* @params: gg
+* @params: the parameters struct
 *
-* Return: gg
+* Return: bytes printed
 */
 int print_HEX(va_list ap, params_t *params)
 {
@@ -61,10 +61,10 @@ return (c += print_number(str, params));
 }
 /**
 * print_binary - prints unsigned binary numbers
-* @ap:gg
-* @params:gg
+* @ap: the argument pointer
+* @params: the paramters struct
 *
-* Return:gg
+* Return: bytes printed
 */
 int print_binary(va_list ap, params_t *params)
 {
@@ -80,10 +80,10 @@ return (c += print_number(str, params));
 
 /**
 * print_octal - prints unsigned octal numbers
-* @ap:gg
-* @params:gg
+* @ap: the argument pointer
+* @params: the parameters struct
 *
-* Return:gg
+* Return: bytes printed
 */
 int print_octal(va_list ap, params_t *params)
 {
@@ -104,4 +104,3 @@ if (params->hashtag_flag && l)
 params->unsign = 1;
 return (c += print_number(str, params));
 }
-

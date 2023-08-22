@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-*get_specifier - finds the format func
-*@s: the format string
+* get_specifier - finds the format func
+* @s: the format string
 *
-*Return: the number of bytes printed
+* Return: the number of bytes printed
 */
 int (*get_specifier(char *s))(va_list ap, params_t *params)
 {
@@ -84,9 +84,10 @@ return (i);
 }
 
 /**
-* get_modifier-finds the modifier func
+* get_modifier - finds the modifier func
 * @s: the format string
-* @params:gg
+* @params: the parameters struct
+*
 * Return: if modifier was valid
 */
 int get_modifier(char *s, params_t *params)
@@ -108,7 +109,7 @@ return (i);
 * get_width - gets the width from the format string
 * @s: the format string
 * @params: the parameters struct
-* @ap: gg
+* @ap: the argument pointer
 * Return: new pointer
 */
 char *get_width(char *s, params_t *params, va_list ap)
@@ -127,7 +128,3 @@ d = d * 10 + (*s++ - '0');
 params->width = d;
 return (s);
 }
-
-
-
-

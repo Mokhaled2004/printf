@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * init_params - gg
- * @params: lol
- * @ap: bo
+ * init_params - clears struct fields and resets buf
+ * @params: the parameters struct
+ * @ap: the argument pointer
  *
  * Return: void
 */
