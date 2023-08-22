@@ -114,6 +114,7 @@ char *get_precision(char *p, params_t *params, va_list ap);
 
 /* _printf.c module */
 int _printf(const char *format, ...);
+void print_buffer(char buffer[], int *buff_ind);
 
 #endif
 
