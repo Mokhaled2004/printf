@@ -2,7 +2,7 @@
 /**
  * init_params - gg
  * @params: lol
- * @ap: bo
+ * @ap: bos
  *
  * Return: void
 */
