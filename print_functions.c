@@ -28,7 +28,7 @@ return (sum);
 */
 int print_int(va_list ap, params_t *params)
 {
-long __attribute__ ((unused)) l;
+long l;
 if (params->l_modifier)
 l = va_arg(ap, long);
 else if (params->h_modifier)
